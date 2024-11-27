@@ -1,0 +1,77 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  background-image: url("conquetewallpaper.jpeg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: purple;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+p {
+
+text-align:center;
+color:purple;
+font-size: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+    opacity: 0.9;
+}

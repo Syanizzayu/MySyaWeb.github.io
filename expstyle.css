@@ -1,0 +1,107 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  background-image: url("conquetewallpaper.jpeg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: purple;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.experience {
+  padding: 40px 20px;
+text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+
+.card h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 1em;
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Custom Colors for Each Card */
+.role:nth-child(1) {
+  border-top: 5px solid #3498db;
+}
+
+.role:nth-child(2) {
+  border-top: 5px solid #2ecc71;
+}
+
+.role:nth-child(3) {
+  border-top: 5px solid #e74c3c;
+}
